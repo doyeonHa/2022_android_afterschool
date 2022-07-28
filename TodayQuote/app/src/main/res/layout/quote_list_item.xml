@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1. 목록 데이터 (명언 목록 mutableList)
+    2. 리스트에 포함될 개별 데이터를 표시할 XML파일
+    3. 리스트에 포함될 각 항목이 표시될 방식을 관리할 레이아웃 매니저
+    4. 리스트에 포함될 각 데이터를 보여줄 뷰 객체를 보관할 뷰 홀더 클래스
+    5. 리스트에 포함될 리스트 데이터와 레이아웃 파일을 연결하는 총체적인 관리 기능을 제공할 어댑터 클래스
+    4 & 5는 보통 동시에 정의
+    -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/quote_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
